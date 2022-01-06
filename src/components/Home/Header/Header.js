@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, NavLink } from 'react-router-dom';
 import './Header.css'
 
 const Header = () => {
@@ -12,7 +13,9 @@ const Header = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav ms-auto me-4 navbar-links">
-                            <a className="nav-link" aria-current="page" href="#">Home</a>
+                            <Link to='/home'>
+                                Home
+                            </Link> 
                             <a className="nav-link" href="#">Products</a>
                             <a className="nav-link" href="#">About Us</a>
                         </div>

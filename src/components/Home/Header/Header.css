@@ -50,3 +50,6 @@
   background-color: rgb(255, 187, 0);
   color: black;
 }
+.navbar-nav a{
+  text-decoration: none !important;
+}
